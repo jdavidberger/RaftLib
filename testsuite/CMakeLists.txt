@@ -45,7 +45,8 @@ set( TESTAPPS allocate
      staticJoinRetStruct
      staticLongSplitChainRetStruct
      staticSplitChainJoinRetStruct
-     staticSplitJoinRetStruct 
+     staticSplitJoinRetStruct
+     sumAndMul
      chainMultiplePorts )
 
 if( BUILDRANDOM )

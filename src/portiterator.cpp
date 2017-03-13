@@ -86,7 +86,8 @@ PortIterator::operator!=( const PortIterator &rhs )
 
 FIFO&
 PortIterator::operator*() 
-{ 
+{
+   assert(port_map->map[ key_map[ map_index ] ].getFIFO());
    return(
       (*port_map->map[ key_map[ map_index ] ].getFIFO() ) );
 }
